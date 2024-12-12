@@ -1,4 +1,4 @@
-lipid=read.table("Computer\E:\Franziska\Eigene Dokumente\Uni\Bachelorarbeit\Ergebnistabelle.txt",sep="\t",h=TRUE,dec=",")
+lipid=read.table("path/Ergebnistabelle.txt",sep="\t",h=TRUE,dec=",")
 
 lipid$Replicate <- as.factor(lipid$Replicate)
 lipid$Wet_Weight_mg <- as.numeric(as.character(lipid$Wet_Weight_mg))
